@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+
+      .second {
+            display: flex;
+            flex-direction: column;
+      }
+
+
+
+}
+
+@media (max-width: 700px) {
+
+      .text> :nth-child(1) {
+            font-size: 20px;
+            font-weight: 900;
+            width: 300px;
+            text-align: center;
+            line-height: 20px;
+      }
+
+      .logo {
+            width: 80px !important;
+      }
+
+      .btn-red {
+            background-color: red;
+            padding: 7px 10px;
+            font-size: 10px !important;
+            color: white;
+            font-family: 'Poppins';
+            margin: 0 5px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+      }
+
+      .email
+      {
+            width: 5px;
+            padding: 0 !important;
+      }
+      .emailInput
+      {
+            width: 5px ;
+      }
+
+      .fourth{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .t3> :nth-child(1)
+      {
+            width: 10px;
+      }
+
+}
